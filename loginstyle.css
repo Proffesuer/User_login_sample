@@ -1,4 +1,30 @@
 body{
+    background-image: url('picture/pexels-photo-3184454.jpeg');
+    background-repeat: no-repeat;
+   background-size: cover;
 
     align-content: center;
+}
+
+/*styling the container with the form*/
+.container{
+
+
+    background-color: black;
+    opacity:.8;
+
+    background-attachment: inherit;
+   
+    background-position-x: center;
+    max-width: 50%;
+    max-height: 50%;
+    color:whitesmoke;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: inset;
+    border-color:whitesmoke;
+
+}
+input[textarea]{
+    max-width: 50%;
 }
