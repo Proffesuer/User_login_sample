@@ -13,11 +13,12 @@ body{
     background-color: black;
     opacity:.8;
 
-    background-attachment: inherit;
+  
    
     background-position-x: center;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 60%;
+
+    
     color:whitesmoke;
     border-radius: 15px;
     border-width: 5px;
@@ -26,5 +27,21 @@ body{
 
 }
 input[textarea]{
-    max-width: 50%;
+
+    border-radius: 5px;
+    width: auto;
+}
+.Button1
+{
+border-radius: 10px;
+    background-color:tomato;
+    width: 70px;
+    height:40px;
+
+}
+.Button1:hover{
+    background-color: black;
+    color:tomato;
+    border-radius: 10px;
+    
 }
