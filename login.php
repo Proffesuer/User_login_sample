@@ -2,12 +2,15 @@
 
 
 $host="localhost";
-$user="root";
-$password="";
+$username="root";
+$Password="";
 $db="demo";
 
-  mysql_connect($host,$user,$password);
-   $mysql_select_db($db);
+
+$conn = mysqli_connect($host,$username,$Password,$db);
+
+  
+
 if(isset($_POST['"username"'])){
 
     $uname=$_POST['username'];
@@ -35,7 +38,6 @@ if(isset($_POST['"username"'])){
 ?>
 
 
-/*my html code */
 
 
 
@@ -63,7 +65,7 @@ USER LOGIN
 <BR><BR>
 <HR>
 
-<form class="back" method="POST"action="#">
+<form class="back" method="POST"action="">
 
 <div class="form_input" align="center">
     <lable>

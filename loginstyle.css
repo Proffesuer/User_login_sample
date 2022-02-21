@@ -26,11 +26,14 @@ body{
     border-color:whitesmoke;
 
 }
+/*styling the text area of the input*/
 input[textarea]{
 
     border-radius: 5px;
     width: auto;
 }
+/*Button styling after inside the form*/
+
 .Button1
 {
 border-radius: 10px;
