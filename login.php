@@ -1,4 +1,28 @@
+<?php
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
 
 
 
@@ -54,18 +78,6 @@ USER LOGIN
 
 
 </center>
-<script>
-// My web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAcLCOywcAYT6cty35yg6iBj_mfd8Aac34",
-  authDomain: "systemtest-f6b00.firebaseapp.com",
-  projectId: "systemtest-f6b00",
-  storageBucket: "systemtest-f6b00.appspot.com",
-  messagingSenderId: "460751158704",
-  appId: "1:460751158704:web:1380cfa3b6558601ad2a75"
-};
-
-</script>
 
 
 
